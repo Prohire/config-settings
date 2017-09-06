@@ -45,6 +45,9 @@
             </bean>
         </property>
         
+        <!-- Set deployment mode. -->
+        <property name="deploymentMode" value="CONTINUOUS"/>
+      
         <property name="cacheConfiguration">
             <list>
                 <!-- Partitioned cache example configuration (Atomic mode). -->
