@@ -48,6 +48,8 @@
         <!-- Set deployment mode. -->
         <property name="deploymentMode" value="CONTINUOUS"/>
       
+        <property name="peerClassLoadingEnabled" value="true"/>
+      
         <property name="cacheConfiguration">
             <list>
                 <!-- Partitioned cache example configuration (Atomic mode). -->
